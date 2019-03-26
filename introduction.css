@@ -1,0 +1,129 @@
+body
+{
+  margin: 0;
+  padding: 0;
+
+}
+
+header
+{
+  font-family: 'Lobster' ,cursive;
+  text-align: center;
+  background: white;
+  color: green;
+  margin: 0px;
+  padding: 15px 15px 0 15px;
+}
+a
+{
+  border: 2px solid green;
+  background-color: lightgreen;
+  float: left;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+a:hover
+{
+  text-decoration: underline;
+  color: blue;
+}
+h1
+{
+  margin: 0;
+
+}
+h2
+{
+  float: left;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 100%;
+  max-width: 80%;
+  color: green;
+}
+h3
+{
+  margin: 0px;
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 12%;
+/*  right: 50%;*/
+  width: 100%;
+  max-width: 75%;
+  text-align: center;
+  color: white;
+  background-color: green;
+  font-style: oblique;
+  padding: 5px;
+  /*transform: translate(50%, 50%);*/
+}
+video
+{
+  position: absolute;
+  top: 45%;
+  transform: translate(21%, 50%);
+  color: white;
+  width: 70%;
+  height: auto;
+}
+#para
+{
+  position: absolute;
+  float: right;
+  text-align: justify;
+  width: 75%;
+  margin: 10px 10%;
+  top:220px;
+  color: black;
+  border: 5px solid green;
+  border-radius: 20px;
+  background-color:rgb(255, 255, 255, 0.8);
+  padding: 15px;
+  left:1%;
+  right: 0%;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.background
+{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 150%;
+}
+
+#image
+{
+  width: 100%;
+  background-color: blue;
+  position: sticky;
+  top: 0px;
+  filter: blur(2px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 28px;
+}
+footer
+{
+  bottom: -90px;
+  background-image: linear-gradient(to right,lightgreen,green,lightgreen);
+  background-position: bottom;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  margin-bottom: -8px;
+  height: 100px;
+}
+#slogan
+{
+  font-family: 'Dancing Script', cursive;
+}
+#copyright
+{
+  margin-bottom: -16px;
+  margin-top: -8px;
+}

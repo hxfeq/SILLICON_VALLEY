@@ -1,0 +1,119 @@
+body
+{
+  margin: 0px;
+  background-image: url("4K-Green-Photo-Free.jpg");
+  width: auto;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 10px;
+}
+header
+{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+  margin: -10px;
+  padding: 5px;
+}
+a
+{
+  border: 2px solid green;
+  background-color: lightgreen;
+  float: left;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+a:hover
+{
+  text-decoration: underline;
+  color: blue;
+}
+h1
+{
+  margin: 10px;
+}
+#logo
+{
+  width: 40px;
+  position: relative;
+}
+#back
+{
+  width: 100%;
+  top: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+  background-attachment: fixed;
+}
+.collapsible
+{
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover
+{
+  background-color: #555;
+}
+.collapsible:after
+{
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after
+{
+  content: "\2212";
+}
+.content
+{
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+.ques
+{
+  position: absolute;
+  padding: 10%;
+  padding-top: 20px;
+  position: absolute;
+  top: 30%;
+  line-height: 1.2;
+  font-size: 1.2em;
+}
+h2
+{
+  float: left;
+  position: absolute;
+  top: 100px;
+  left: 10%;
+  right: 10%;
+  margin:auto;
+  width: 100%;
+  max-width: 70%;
+  color: black;
+  border: 3px solid black;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  text-align: center;
+}

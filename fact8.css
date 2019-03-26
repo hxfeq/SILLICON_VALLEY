@@ -1,0 +1,182 @@
+body
+{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+header
+{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+}
+#homebt
+{
+  position: absolute;
+  left: 10px;
+  float: left;
+  padding: 10px;
+  font-size: 10px;
+  background-color: rgb(0, 179, 0, 1);
+  border-radius: 5px;
+}
+#home
+{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+#logo
+{
+  width: 40px;
+  position: relative;
+}
+#tagline
+{
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-size: 180%;
+  left: -20px;
+}
+.selection
+{
+  float: left;
+  width: 100%;
+  position: absolute;
+}
+ul
+{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(#10C135,#25963E);
+  width: 100%;
+  margin: auto;
+  position: sticky;
+  display: flex;
+  font-size: 100%;
+}
+li
+{
+  float: left;
+  width: 12.5%;
+  font-size: 100%;
+  position: sticky;
+}
+li a
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 100%;
+  position: sticky;
+}
+li a:hover
+{
+  background-color: #111;
+  font-size: 100%;
+  position: sticky;
+}
+.isi
+{
+  width: 100%;
+  max-width: 90%;
+  height: 1000px;
+}
+#back
+{
+  width: 100%;
+  background-color: blue;
+  position: sticky;
+  top: 0px;
+  filter: blur(2px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 28px;
+}
+h1
+{
+  float: left;
+  position: absolute;
+  top: 150px;
+  left: 10%;
+  width: 100%;
+  max-width: 80%;
+  color: white;
+}
+#para
+{
+  position: absolute;
+  float: right;
+  text-align: justify;
+  width: 75%;
+  margin: 10px 10%;
+  top:220px;
+  color: black;
+  border: 5px solid darkgreen;
+  background-color:rgb(255, 255, 255, 0.8);
+  padding: 15px;
+  left:20px;
+  right: 20px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+#web
+{
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+#web:hover
+{
+  text-decoration: underline;
+}
+h2
+{
+    position: absolute;
+    color: white;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(0,128,0,0.6);
+    border: 3px solid darkgreen;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    font-family: 'Germania One', cursive;
+    left: 50%;
+    top: 150%;
+    transform: translate(-50%, -50%);
+}
+#static
+{
+    position: absolute;
+    width: auto;
+    height: 100vh;
+    margin: 0;
+    top: 220%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+footer
+{
+  background-image: linear-gradient(to right,lightgreen,green,lightgreen);
+  background-position: bottom;
+  font-size: 20px;
+  bottom: -8px;
+  text-align: center;
+  position: relative;
+  margin-bottom: -8px;
+  height: 70px;
+}
+#slogan
+{
+  font-family: 'Dancing Script', cursive;
+}
+#copyright
+{
+  margin-bottom: -8px;
+}
