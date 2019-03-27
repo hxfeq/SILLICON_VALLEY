@@ -84,7 +84,7 @@ li a:hover
 {
   width: 100%;
   max-width: 90%;
-  height: 1000px;
+  height: 1400px;
 }
 #back
 {
@@ -148,7 +148,7 @@ h2
     display: block;
     font-family: 'Germania One', cursive;
     left: 50%;
-    top: 150%;
+    top: 120%;
     transform: translate(-50%, -50%);
 }
 #static
@@ -157,7 +157,7 @@ h2
     width: auto;
     height: 100vh;
     margin: 0;
-    top: 220%;
+    top: 180%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
