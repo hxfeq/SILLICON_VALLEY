@@ -84,7 +84,7 @@ li a:hover
 {
   width: 100%;
   max-width: 90%;
-  height: 1500px;
+  height: 1700px;
 }
 #back
 {
@@ -135,7 +135,7 @@ h2
   margin: 0px;
   float: left;
   position: absolute;
-  top: 720px;
+  top: 760px;
   left: 10%;
   width: 100%;
   max-width: 80%;
@@ -147,7 +147,7 @@ iframe
   position: absolute;
   left: 12%;
   right: 10%;
-  top: 800px;
+  top: 830px;
   color: white;
   width: 80%;
   height: 80%;
@@ -158,7 +158,7 @@ h3
   margin: 0px;
   float: left;
   position: absolute;
-  top: 1415px;
+  top: 1555px;
   left: 10%;
   width: 100%;
   max-width: 80%;
@@ -168,7 +168,7 @@ h3
 .images
 {
   position: absolute;
-  top: 1450px;
+  top: 1580px;
   float: left;
   margin: 5px;
   left: 6%;
