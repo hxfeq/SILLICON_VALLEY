@@ -84,7 +84,7 @@ li a:hover
 {
   width: 100%;
   max-width: 90%;
-  height: 800px;
+  height: 100px;
 }
 #back
 {
@@ -152,7 +152,7 @@ video
   color: white;
   width: 50%;
   height: auto;
-  top: 350px;
+  top: 250px;
 }
 h3
 {
