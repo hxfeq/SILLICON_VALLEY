@@ -85,7 +85,7 @@ li a:hover
 {
   width: 100%;
   max-width: 90%;
-  height: 1500px;
+  height: 2010px;
 }
 #back
 {
@@ -167,7 +167,7 @@ h3
   margin: 1px;
   float: left;
   position: absolute;
-  top: 1650px;
+  top: 1850px;
   left: 10%;
   width: 130%;
   max-width: 80%;
@@ -178,7 +178,7 @@ h3
 .images
 {
   position: absolute;
-  top: 1700px;
+  top: 2000px;
   float: left;
   margin: 2px;
   left: 10%;
