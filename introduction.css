@@ -48,7 +48,7 @@ h3
   margin: 0px;
   float: left;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 12%;
 /*  right: 50%;*/
   width: 100%;
@@ -63,11 +63,11 @@ h3
 iframe
 {
   position: absolute;
-  top: 45%;
-  transform: translate(21%, 50%);
+  top: 40%;
+  transform: translate(13%,50%);
   color: white;
-  width: 70%;
-  height: auto;
+  width: 80%;
+  height: 40%;
 }
 #para
 {
