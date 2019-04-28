@@ -1,129 +1,93 @@
-body
+html
 {
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
 
 }
-
-header
+#logo
 {
-  font-family: 'Lobster' ,cursive;
+  width:2.5vw;
+  height: 5vh;
+}
+#hh1
+{
   text-align: center;
-  background: white;
-  color: green;
+  font-family: 'Lobster', cursive;
+}
+#menuuu
+{
+  width: 35px;
   margin: 0px;
-  padding: 15px 15px 0 15px;
+  margin-top: -0.5px;
+  background-position: center;
+  background-size: contain;
 }
-a
-{
-  border: 2px solid green;
-  background-color: lightgreen;
-  float: left;
-  padding: 5px;
-  text-decoration: none;
-  color: black;
-}
-a:hover
-{
-  text-decoration: underline;
-  color: blue;
-}
-h1
-{
-  margin: 0;
-
-}
-h2
+.w3-container
 {
   float: left;
-  position: absolute;
-  top: 5%;
-  left: 10%;
-  width: 100%;
-  max-width: 80%;
-  color: green;
+  margin-top: -55px;
 }
-h3
+.content
 {
-  margin: 0px;
-  float: left;
-  position: absolute;
-  top: 55%;
-  left: 12%;
-/*  right: 50%;*/
-  width: 100%;
-  max-width: 75%;
-  text-align: center;
-  color: white;
-  background-color: green;
+  width: 70vw;
+  margin: auto;
+  text-align: justify;
+}
+.back
+{
+  background-image: url("intro.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#head
+{
   font-style: oblique;
-  padding: 5px;
-  /*transform: translate(50%, 50%);*/
-}
-iframe
-{
-  position: absolute;
-  top: 40%;
-  transform: translate(13%,50%);
+  font-weight: bold;
   color: white;
-  width: 80%;
-  height: 40%;
+  width: 70vw;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+  text-align: center;
 }
 #para
 {
-  position: absolute;
-  float: right;
+  width: 70vw;
+  margin: auto;
   text-align: justify;
-  width: 75%;
-  margin: 10px 10%;
-  top:220px;
   color: black;
   border: 5px solid green;
   border-radius: 20px;
   background-color:rgb(255, 255, 255, 0.8);
   padding: 15px;
-  left:1%;
-  right: 0%;
   line-height: 1.5;
   font-size: 16px;
 }
-.background
+iframe
 {
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  height: 150%;
-}
-
-#image
-{
-  width: 100%;
-  background-color: blue;
-  position: sticky;
-  top: 0px;
-  filter: blur(2px);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 28px;
+  width: 70vw;
+  height: 85vh;
+  margin: auto;
+  align-items: center;
 }
 footer
 {
-  bottom: -90px;
-  background-image: linear-gradient(to right,lightgreen,green,lightgreen);
-  background-position: bottom;
+  background-image:linear-gradient(to right,lightgreen,green,lightgreen);
   font-size: 20px;
   text-align: center;
-  position: relative;
-  margin-bottom: -8px;
-  height: 100px;
+  margin: -8px;
 }
 #slogan
 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Anton', sans-serif;
+  margin: 0px;
+  margin-top: 8px;
 }
 #copyright
 {
-  margin-bottom: -16px;
-  margin-top: -8px;
+  margin: 0px;
 }

@@ -2,22 +2,50 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="form.css">
-    <input type="button" onclick="location.href='contactus.html'" value="BACK">
+    <title>CONTACT US</title>
   </head>
-  <body>
-    <form class="" action="index.html" method="post">
-      Name:<br>
-      <input type="text" name="" value=""><br><br>
-      e-Mail:<br>
-      <input type="text" name="" value=""><br><br>
-      Comment:<br>
-      <textarea name="comment" placeholder="Enter your comment" id="comment"></textarea>
 
-<input type="button" onclick="location.href='form.html'" value="Submit">
+  <div class="w3-container" >
+    <div class="w3-dropdown-hover">
+      <button class="w3-button w3-black" style="padding:0px;margin-top:2px;"><img src="menu.png" id="menuuu"></button>
+      <div class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="Homepage.html" class="w3-bar-item w3-button">HOME</a>
+        <a href="introduction.html" class="w3-bar-item w3-button">INTRODUCTION</a>
+        <a href="fact1.html" class="w3-bar-item w3-button">FACTS</a>
+        <a href="faq.html" class="w3-bar-item w3-button">FAQ</a>
+      </div>
+    </div>
+  </div>
+  <body>
+    <form action="https://mailthis.to/wanahmdakml@gmail.com"
+    method="POST" encType="multipart/form-data">
+      <input name="name" type="text" class="feedback-input" placeholder="Name" >
+      <input name="email" type="text" class="feedback-input" placeholder="Email" >
+      <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+      <button type="submit" class="submit-btn">SUBMIT</button>
     </form>
 
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+
+
+
+    <h1 class="submit-feedback">YOUR FORM HAS BEEN SENT</h1>
 
   </body>
+  <script type="text/javascript">
+    $.post("https://mailthis.to/test@example.com", {
+      email: "foo@bar.co",
+      _subject: 'hi!',
+      message: 'Test'
+    }).then(function () {
+      location.href = 'https://mailthis.to/confirm'
+    });
+  </script>
+
 </html>

@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fact1.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="icon" href="download.png">
     <title>REUSE</title>
   </head>
+  <header>
+    <h1 id="hh1">SAVE EARTH SAVE LIFE
+      <span>
+        <img src="earth_PNG17.png" id="logo">
+      </span>
+    </h1>
+    <div class="w3-container" >
+    <div class="w3-dropdown-hover">
+      <button class="w3-button w3-black" style="padding:0px;margin-top:2px;"><img src="menu.png" id="menuuu"></button>
+      <div class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="Homepage.html" class="w3-bar-item w3-button">HOME</a>
+        <a href="introduction.html" class="w3-bar-item w3-button">INTRODUCTION</a>
+        <a href="form.html" class="w3-bar-item w3-button">CONTACT US</a>
+        <a href="faq.html" class="w3-bar-item w3-button">FAQ</a>
+      </div>
+    </div>
+  </div>
+  </header>
+
   <body>
-    <header>
-      <button id="homebt" type="button" name="button" onclick="location.href='Homepage.html'">
-        <a id="home" href="Homepage.html">HOME</a>
-      </button>
-      <p id="tagline"><img src="earth_PNG17.png" id="logo">  SAVE EARTH SAVE LIFE</p>
-    </header>
-    <div>
       <nav class="selection">
         <ul>
           <li><a href="fact1.html">REUSE</a></li>
@@ -28,12 +42,10 @@
           <li><a href="fact8.html">STATISTIC</a></li>
         </ul>
       </nav>
-    </div>
-    <br>
-    <img src="repairearth.jpg" id="back">
-    <div class="isi">
-      <h1>REUSE</h1>
-      <p id="para">
+      <div class="back">
+      <div class="content">
+        <h2 id="head">REUSE</h2>
+        <p id="para">
         <img src="1.jpg" id="first">
         Reuse is the action or practice of using something again, whether for its original purpose (conventional reuse) or to fulfil a different function (creative reuse or repurposing).
         It should be distinguished from recycling, which is the breaking down of used items to make raw materials for the manufacture of new products.
@@ -63,22 +75,19 @@
         <br> - Knowing the standards that legacy products conform to is required for knowing what adapters to buy for newer products to be compatible with them, even though the cost of adapters for such applications is a minor disadvantage.
         <br> - Being a rather minor disadvantage, metal that is repurposed later on can sometimes contain rust, seeing as it sometimes ages before reuse.
         </p>
-        <h2></h2>
-      <video width="400" controls align="center">
-        <source src="Reuse Meaning.mp4" type="video/mp4">
-        <source src="Reuse meaning.ogg" type="video/ogg">
-      </video>
-   
-    </div>
-    <footer>
-      <p id="slogan">The Earth is what we all have in common</p>
-      <p id="copyright">by <strong>SILLICON VALLEY</strong></p>
-    </footer>
-  </body>
-</html>
+        <h2 id="head">VIDEO</h2>
 
-<!-- IDEA: reference:
-1) https://en.wikipedia.org/wiki/Reuse
-2) https://homeguides.sfgate.com/meaning-three-rs-reduce-reuse-recycle-79718.html
-3) https://whatis.techtarget.com/definition/Reduce-reuse-recycle-R3
-4) https://www.youtube.com/watch?v=aKnvk3wmvKw -->
+        <iframe
+        src="https://www.youtube.com/embed/M7_1lvnnP9w" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+        </iframe>
+
+      </div>
+      </div>
+  </body>
+  <footer>
+    <p id="slogan">"The Earth is what we all have in common"</p>
+    <p id="copyright">by <strong>SILLICON VALLEY</strong></p>
+  </footer>
+</html>

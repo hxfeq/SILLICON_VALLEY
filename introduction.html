@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>INTRODUCTION</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="introduction.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="icon" href="download.png">
+    <title>INTRODUCTION</title>
   </head>
-  <body>
-    <header>
-      <a href="Homepage.html">HOME</a>
-      <h1>Save Earth,Save Life</h1>
-    </header>
+  <header>
+    <h1 id="hh1">Save Earth,Save Life
+      <span>
+      <img src="earth_PNG17.png" id="logo">
+      </span>
+    </h1>
+    <div class="w3-container" >
+    <div class="w3-dropdown-hover">
+      <button class="w3-button w3-black" style="padding:0px;margin-top:2px;"><img src="menu.png" id="menuuu"></button>
+      <div class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="Homepage.html" class="w3-bar-item w3-button">HOME</a>
+        <a href="fact1.html" class="w3-bar-item w3-button">FACTS</a>
+        <a href="form.html" class="w3-bar-item w3-button">CONTACT US</a>
+        <a href="faq.html" class="w3-bar-item w3-button">FAQ</a>
+      </div>
+    </div>
+  </div>
+  </header>
 
-    <div class="background">
-      <img id="image" src="huhu.jpg">
-      <div class="isi">
-        <h2>INTRODUCTION</h2>
+  <body>
+    <div class="back">
+      <div class="content">
+        <h2 id="head">INTRODUCTION</h2>
         <p id="para">
 
           This site is planned to be an instructive site that intends to spread
@@ -59,18 +75,49 @@
 
          </p>
 
-         <h3>VIDEO OF RECYCLE REUSE REDUCE</h3>
-       <iframe width="789" height="444" src="https://www.youtube.com/embed/Iykkc0I3foA" frameborder="0" allow="accelerometer; 
-          autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <h2 id="head">VIDEO OF RECYCLE REUSE REDUCE</h2>
+          <iframe id="vdeo"
+            src="https://www.youtube.com/embed/Iykkc0I3foA" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
 
+          <h2 id="head">MAPS</h2>
+          <div id="maps">
 
+          <iframe
+            id="mapss"
+            src="https://www.google.com/maps?q=gombak&output=embed"
+            width="600" height="450" frameborder="0"
+            style="border:0" allowfullscreen>
+          </iframe>
+
+            <script type="text/javascript">
+              var latitude = 3.2544572;
+              var longitude = 101.7345989;
+              document.getElementById("maps").innerHTML =
+              '<iframe src="https://www.google.com/maps?q='+latitude+','+longitude+'&output=embed" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>';
+              if (navigator.geolocation)
+              {
+                navigator.geolocation.getCurrentPosition(showPosition);
+              }
+              else
+              {
+              alert("Geolocation is not supported by this browser.");
+              }
+
+              function showPosition(position) {
+                latitude = position.coords.latitude;
+                longitude = position.coords.longitude;
+              document.getElementById("maps").innerHTML = '<iframe src="https://www.google.com/maps?q='+latitude+','+longitude+'&output=embed" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>';
+            }
+          </script>
+        </div>
+      </div>
     </div>
-
-    <footer>
-      <p id="slogan">The Earth is what we all have in common</p>
-      <p id="copyright">by <strong>SILLICON VALLEY</strong></p>
-    </footer>
-
-
   </body>
+  <footer>
+    <p id="slogan">The Earth is what we all have in common</p>
+    <p id="copyright">by <strong>SILLICON VALLEY</strong></p>
+  </footer>
 </html>

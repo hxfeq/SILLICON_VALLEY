@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+html{
+
+  background-image: linear-gradient(rgba(0,100,0 ,1 ),white);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+}
+#menuuu
+{
+  width: 35px;
+  margin: 0px;
+  margin-top: -0.5px;
+  background-position: center;
+  background-size: contain;
+}
+.w3-container
+{
+  float: left;
+  
+}
+form {
+  color: black;
+  max-width:420px;
+  margin:50px auto 30px;
+  padding: 20px
+}
+
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid black;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+input::placeholder,textarea::placeholder{
+  color: white;
+}
+
+.feedback-input:focus {
+  border: 2px solid #2ecc71;
+}
+
+textarea {
+  color: white;
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+.submit-btn {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: black;
+  border-radius: 0;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 100;
+}
+
+.submit-btn:hover {
+  background:#3498db;
+  letter-spacing: 8px;
+}
+
+.submit-feedback {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  display: none;
+}
+
+/* Submit Loader */
+/*==============*/
+
+.spinner {
+  display: none;
+  margin: 0 auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #2980b9;
+
+  border-radius: 100%;
+  display: inline-block;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  animation-fill-mode: both;
+}
+
+.spinner .bounce1 {
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  animation-delay: -0.16s;
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0.0);
+  } 40% {
+    transform: scale(1.0);
+  }
+}
